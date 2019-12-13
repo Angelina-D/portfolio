@@ -1,0 +1,25 @@
+.navb {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: auto;
+  background-color: #fdfcf7;
+  font-family: 'Inconsolata', monospace;
+
+  a {
+    text-decoration: none;
+    color: #484846;
+    &:hover {
+      color: #c3c3c3;
+    }
+  }
+}
+
+.icon-links {
+  display: flex;
+  justify-content: space-evenly;
+  a {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+}
